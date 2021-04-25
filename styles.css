@@ -5,22 +5,22 @@
 	box-sizing: border-box;
 }
 :root {
-	--mainBg: #1b1b1b;
-	--tableBg: #29292a;
-	--primary: #fff;
-	--borderDark: #333537;
-	--secondary: #bcc4d1;
-	--pink: #cd45a2;
-	--blue: #4d53d9;
+	--dark900: #1b1b1b;
+	--dark800: #29292a;
+	--light900: #fff;
+	--dark700: #333537;
+	--light800: #bcc4d1;
+	--purple: #6746ed;
+	--blue: #0177fb;
 }
 body {
 	min-height: 100vh;
-	background-color: var(--mainBg);
+	background-color: var(--dark900);
 	font-family: "Open Sans", sans-serif;
 }
 a {
 	text-decoration: none;
-	color: var(--secondary);
+	color: var(--light800);
 }
 .main-wrapper {
 	width: 90rem;
@@ -45,7 +45,7 @@ a {
 .table {
 	height: 40rem;
 	width: 70rem;
-	background-color: var(--tableBg);
+	background-color: var(--dark800);
 	border-radius: 20px;
 	padding: 0 8%;
 	margin-bottom: 2.5rem;
@@ -53,12 +53,12 @@ a {
 	grid-template-rows: 1.5fr 9fr;
 }
 .table-title {
-	border-bottom: 2px solid var(--borderDark);
+	border-bottom: 2px solid var(--dark700);
 	padding-bottom: 1rem;
 	align-self: end;
 }
 .table-title h1 {
-	color: var(--primary);
+	color: var(--light900);
 	font-size: 1.8rem;
 }
 .table-body {
@@ -72,8 +72,8 @@ a {
 .table-item {
 	font-size: 1.1rem;
 	padding-bottom: 1rem;
-	border-bottom: 2px solid var(--borderDark);
-	color: var(--secondary);
+	border-bottom: 2px solid var(--dark700);
+	color: var(--light800);
 	display: grid;
 	justify-content: center;
 	align-items: center;
@@ -83,7 +83,7 @@ a {
 	text-decoration: underline;
 }
 .demo {
-	color: var(--pink);
+	color: var(--purple);
 }
 .repo {
 	color: var(--blue);
