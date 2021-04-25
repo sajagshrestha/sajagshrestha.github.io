@@ -11,7 +11,7 @@
 	--dark700: #333537;
 	--light800: #bcc4d1;
 	--purple: #6746ed;
-	--blue: #0177fb;
+	--cyan: #2bebc8;
 }
 body {
 	min-height: 100vh;
@@ -83,8 +83,8 @@ a {
 	text-decoration: underline;
 }
 .demo {
-	color: var(--purple);
+	color: var(--cyan);
 }
 .repo {
-	color: var(--blue);
+	color: var(--cyan);
 }
