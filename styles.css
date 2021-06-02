@@ -46,10 +46,10 @@ a {
 	width: 70rem;
 	background-color: var(--dark800);
 	border-radius: 20px;
-	padding: 0 8% 3rem;
+	padding: 0 6% 3rem;
 	margin-bottom: 2.5rem;
 	display: grid;
-	grid-template-rows: 1.5fr 9fr;
+	grid-template-rows: 1fr 9fr;
 }
 .table-title {
 	border-bottom: 2px solid var(--dark700);
@@ -58,7 +58,7 @@ a {
 }
 .table-title h1 {
 	color: var(--light900);
-	font-size: 1.8rem;
+	font-size: 2rem;
 }
 .table-body {
 	height: 100%;
